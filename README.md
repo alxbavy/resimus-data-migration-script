@@ -40,7 +40,7 @@ python script.py <input_file> <output_directory>
 ### Example
 
 ```bash
-python3 script.py test_flight_table.txt results
+python script.py test_flight_table.txt results
 ```
 
 This command processes the input file and saves the result files in the specified output directory.
