@@ -1,7 +1,3 @@
-Here's a `README.md` file for the provided script:
-
----
-
 # Flight Calculation Script
 
 ## Installation
