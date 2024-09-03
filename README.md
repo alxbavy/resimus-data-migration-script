@@ -48,3 +48,59 @@ This command processes the input file and saves the result files in the specifie
 ## Output
 
 The script generates JSON files for each flight result in the output directory.
+
+## Avaliable fields for config
+*(Last Update 03.09.2024)*
+```
+keroseneAmount
+fuelProvision
+imFluid
+totalGsm
+takeoffLanding
+airSafety
+receptionRelease
+drinkingWater
+cleaning
+sanitaryMaintenance
+gangWay
+towing
+towingTug
+airLaunching
+baggageHatches
+stepladder
+snowCleaningFluid
+parking
+foodDelivery
+airportExpenses
+airportNav
+routeNav
+totalNav
+foreignTotalNav
+food
+passengerService
+terminalUsage
+passengersDelivery
+passengerExpenses
+flightSalary
+crewDelivery
+crewMedService
+techReserves
+otherVar
+crewExpenses
+expensesVar
+leasing
+airworthiness
+salaryFix
+techReservesFix
+insuranceCustoms
+amortization
+otherProd
+general
+nonOperationExpenses
+fixedExpenses
+contingency
+vat
+flightHourCost
+blockHourCost
+flightCost
+```
