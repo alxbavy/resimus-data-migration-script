@@ -90,7 +90,9 @@ def execute(input_file_name, output_directory, config_file_name):
         result_name_field = ru_field_dict.get(result_name_ru)
         if result_name_field is not None:
             for i, flight_calculation_result_dict in enumerate(flight_calculation_results, start=1):
-                flight_calculation_result_dict[result_name_field] = float(splitted_line[i].replace(' ', ''))
+                flight_calculation_result_dict[result_name_field] = float(
+                    splitted_line[i].replace(' ', '').replace(',', '.')
+                )
 
     if not os.path.isdir(output_directory):
         os.mkdir(output_directory)
